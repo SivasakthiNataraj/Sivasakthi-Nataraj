@@ -122,6 +122,8 @@
             backdrop-filter: blur(10px);
             padding: 1rem 0;
             transition: all 0.3s ease;
+            
+
         }
 
         .nav-container {
@@ -131,6 +133,7 @@
             width: 90%;
             max-width: 1200px;
             margin: 0 auto;
+            
         }
 
         .nav-logo {
