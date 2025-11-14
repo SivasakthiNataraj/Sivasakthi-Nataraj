@@ -94,7 +94,7 @@
 
 
   /* Glass morphism navbar */
-.navbar {
+  .navbar {
       width: 100%;
       padding: 1rem 2rem;
       position: fixed;
@@ -102,7 +102,7 @@
       left: 0;
       z-index: 1000;
       display: flex;
-    
+
   }
 
   .nav-container {
@@ -166,29 +166,90 @@
       align-items: center;
   }
 
-/* SEMICIRCLE BACKGROUND */
-.semicircle {
-  position: absolute;
-  top: 55%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 900px;
-  height: 900px;
-  background: var(--dark);
-  border-radius: 50%;
-  z-index: 1;
-}
+  .contact-btn {
+      background: linear-gradient(90deg, #00d1ff, #7a00ff);
+      padding: 10px 20px;
+      border-radius: 25px;
+      color: #fff !important;
+      box-shadow: 0px 0px 15px #7a00ff80;
+  }
+
+  .contact-btn:hover {
+      box-shadow: 0px 0px 25px #00d1ff80;
+  }
+
+  /* HERO SECTION
+  .hero {
+      position: relative;
+      height: 90vh;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 60px;
+  }
+
+  LEFT SECTION
+  .label {
+      border: 1.5px solid #000;
+      padding: 6px 14px;
+      border-radius: 20px;
+      display: inline-block;
+      font-size: 14px;
+  }
+
+  .title {
+      font-size: 125px;
+      margin-top: 45px;
+      line-height: 0.4;
+  }
+
+  .title span {
+      color: #f77c25;
+  }
+
+  .subtext {
+      width: 260px;
+      margin-top: 20px;
+      font-size: 14px;
+      opacity: 0.8;
+  }
+
+  CENTER IMAGE
+  .center-image {
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: 2;
+  }
+
+  .center-image img {
+      width: 380px;
+  }
+
+  SEMICIRCLE BACKGROUND
+  .semicircle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 900px;
+      height: 900px;
+      background: var(--dark);
+      border-radius: 50%;
+      z-index: 1;
+  }
 
 
-.semicircle-outline {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 900px;
-  border: 1.5px solid rgba(5, 242, 250, 0.479);
-  box-shadow: #60a5fa 0px 0px 20px -5px;
-  height: 900px;
-  border-radius: 50%;
-  z-index: 1;
-}
+  .semicircle-outline {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 900px;
+      border: 1.5px solid rgba(5, 242, 250, 0.6);
+      box-shadow: #60a5fa 0px 0px 20px -5px;
+      height: 900px;
+      border-radius: 50%;
+      z-index: 1;
+  } */
